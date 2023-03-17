@@ -1,0 +1,1 @@
+## Mediapipe template for Python ##

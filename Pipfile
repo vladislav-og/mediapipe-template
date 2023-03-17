@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "1.24.0"
+opencv-python = "==4.5.5.62"
+opencv-contrib-python = "==4.5.5.62"
+mediapipe = {version = "==0.9.0.1", sys_platform = "!= 'darwin'"}
+mediapipe-silicon = {version = "==0.8.11", sys_platform = "== 'darwin'"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+opencv-python = "==4.5.5.62"
+opencv-contrib-python = "==4.5.5.62"
+mediapipe-silicon = {version = "==0.8.11", sys_platform = "== 'darwin'"}
+mediapipe = {version = "==0.9.0.1", sys_platform = "!= 'darwin'"}
